@@ -25,13 +25,13 @@ nav, ul {
     width: 45px;
     height: 45px;
 }
+
 .naam {
     float: left;
     color: white;
     padding: 20px 20px;
     background-color: transparent;
-    cursor: pointer;
-
+    cursor:;
     text-decoration-line: none;
 }
 
@@ -66,6 +66,16 @@ nav, ul {
     color: white;
 }
 
+.content-index {
+    margin-top: 300px;
+
+    position: relative;
+	justify-content: center;
+	text-align: center;
+	min-height: 100vh;
+    color: white;
+}
+
 button {
     margin-top: 10px;
     color: white;
@@ -82,31 +92,33 @@ button:hover{
 }
 
 .Portfolio-Images {
+    margin-top: 60px;
     clear: both;
-    padding-left: 135px;
-    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.Portfolio-Images img{
-    opacity: 0.9;
-}
-
-.Portfolio-Images img:hover {
-    opacity: 1;
-}
-
-
-.image-grid img {
-    height: 400px;
-    width: 400px;
+.row img{
+    height: 330px;
+    width: 450px;
+    margin: 10px;
+    transition: all 1s;
+    opacity: 0.8;
     border-radius: 20px;
-    outline: none;
-    padding-left: 10px;
 }
 
+.row img:hover{
+    transform: scale(1.1);
+    animation: 1s fadein;
+}
 
 @keyframes fadein {
 	100% {
 		opacity: 1;
 	}
+}
+
+.red {
+    color:darkred;
 }
