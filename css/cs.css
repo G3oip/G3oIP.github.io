@@ -25,7 +25,7 @@ nav, ul {
     width: 45px;
     height: 45px;
 }
-.naam{
+.naam {
     float: left;
     color: white;
     padding: 20px 20px;
@@ -83,11 +83,12 @@ button:hover{
 
 .Portfolio-Images {
     clear: both;
-    padding-left: 150px;
+    padding-left: 135px;
+    padding-top: 10px;
 }
 
 .Portfolio-Images img{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .Portfolio-Images img:hover {
@@ -98,6 +99,9 @@ button:hover{
 .image-grid img {
     height: 400px;
     width: 400px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 10px;
 }
 
 
