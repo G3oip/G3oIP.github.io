@@ -68,7 +68,6 @@ nav, ul {
 
 .content-index {
     margin-top: 300px;
-
     position: relative;
 	justify-content: center;
 	text-align: center;
@@ -112,6 +111,52 @@ button:hover{
     transform: scale(1.1);
     animation: 1s fadein;
 }
+
+.socials {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    opacity: 1;
+}
+.fa-pinterest {
+    background:#cb2027;
+    color: white;
+    opacity: 1;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    opacity: 1;
+}
+
+.fa-youtube {
+    background:#bb0000;
+    color: white;
+    opacity: 1;
+}
+
+.fa:hover {
+    opacity: 0.8;
+  }
 
 @keyframes fadein {
 	100% {
