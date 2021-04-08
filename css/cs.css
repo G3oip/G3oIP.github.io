@@ -109,9 +109,10 @@ button {
 
 .caption {
     display: block;
-    color: rgb(206, 206, 206);
+    color: white;
     text-align: center;
     margin-top: 10px;
+    font-size: large;
 }
 
 
@@ -187,33 +188,9 @@ button:hover{
     opacity: 0.8;
   }
 
-.container-skills {
-    width: 40%;
-    background-color: #ddd;
-
-    position: relative;
-	justify-content: center;
-	text-align: center;
-	
-}
-
-.skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    color: white;
-}
-
-.html {width: 73%; background-color: #4CAF50;}
-.css {width: 27%; background-color: #2196F3;}
-
 @keyframes fadein {
 	100% {
 		opacity: 1;
 	}
 }
 
-.red {
-    color:darkred;
-}
