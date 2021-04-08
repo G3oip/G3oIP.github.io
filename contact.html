@@ -8,7 +8,7 @@
 <body>
     <header>
     <!-- het logo van het bedrijf -->
-    <img src="images/Untitled-11.ico" class="logo"> 
+    <img src="https://i.pinimg.com/originals/28/d0/71/28d07105a480b923ebf544f90131e0d2.gif" class="logo"> 
 
     <!-- Mijn naam (of de naam van het bedrijf waar je het voor maakt) -->
     <a class="naam">Mike</a>
@@ -16,7 +16,7 @@
     <!-- Dit is de navigation bar rechts boven in het schem -->
     <div class="navbar">
         <nav>
-            <li><a href="https://www.tweakcentral.net/">Ander Project</a></li>
+            <li><a href="https://www.tweakcentral.net/" target="_blank">Ander Project</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="index.html">Home</a></li>
@@ -24,17 +24,32 @@
     </div>
     </header>
 
-    <!-- Hier staan links voor de social medias -->
-    <section class="socials">
-        <div class="links">
-            <span class="caption">Hier staan wat social links van mij die ik gebruik</span>
+    <!-- Email form -->
+    <div id="content-form">
+    <div class="form">
+		<form method="POST">
+			First Name: <input type="text" name="firstname"><br>
+			Last Name: <input type="text" name="lastname"><br>
+			Email: <input type="email" name="email" required><br>
+			Birthday: <input type="date" name="birthday"><br>
+			Patat of Friet?!:<br>
+			<input type="radio" name="question" value="patat">patat<br>
+			<input type="radio" name="question" value="friet">friet<br>	
+			<input type="submit" value="Register">
+			<input type="reset">
+		</form>
+	</div>
+    </div>
+    
 
+    <div class="links">
+        <div class="footer">
             <a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a>
             <a href="https://facebook.com" class="fa fa-facebook" target="_blank"></a>
             <a href="https://Pinterest.com" class="fa fa-pinterest" target="_blank"></a>
             <a href="https://Youtube.com" class="fa fa-youtube" target="_blank"></a>
         </div>
-    </section>
+    </div>
     
 </body>
 

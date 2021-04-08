@@ -23,8 +23,9 @@ nav, ul {
     float: left;
     margin-top: 7px;
     margin-left: 10px;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .naam {
@@ -54,30 +55,6 @@ nav, ul {
 
 .navbar a:hover {
     background-color: teal;    
-}
-
-.hero {
-    height: 50vh;
-    width: 100vh;
-}
-
-.content {
-    margin-top: 300px;
-    clear: both;
-    position: relative;
-	justify-content: center;
-	text-align: center;
-	min-height: 100vh;
-    color: white;
-}
-
-.content-index {
-    margin-top: 300px;
-    position: relative;
-	justify-content: center;
-	text-align: center;
-	min-height: 100vh;
-    color: white;
 }
 
 button {
@@ -125,7 +102,7 @@ button:hover{
     background-color:teal;
 }
 
-.Portfolio-Images {
+#Portfolio-Images {
     margin-top: 60px;
     clear: both;
     display: grid;
@@ -184,13 +161,29 @@ button:hover{
     opacity: 0.8;
 }
 
+#content-form {
+
+    padding-top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+form {
+    text-align: center;
+    color: white;
+    
+}
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    margin-bottom: 10px;
 }
+
+
 
 @keyframes fadein {
 	100% {
