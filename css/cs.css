@@ -104,7 +104,6 @@ button {
     height: 609px;
     width: 1129px;
     margin-top: 20px;
-
 }
 
 .caption {
@@ -115,6 +114,12 @@ button {
     font-size: large;
 }
 
+.links {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
 
 button:hover{
     background-color:teal;
@@ -123,7 +128,7 @@ button:hover{
 .Portfolio-Images {
     margin-top: 60px;
     clear: both;
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -142,23 +147,14 @@ button:hover{
     animation: 1s fadein;
 }
 
-.socials {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
 .fa {
     padding: 20px;
+    display: block;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    
   }
 
 .fa-twitter {
@@ -186,7 +182,15 @@ button:hover{
 
 .fa:hover {
     opacity: 0.8;
-  }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
 
 @keyframes fadein {
 	100% {
