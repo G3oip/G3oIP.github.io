@@ -1,6 +1,7 @@
 * {
 margin: 0;
-font-family: 'Open Sans', sans-serif;
+font-family: "roboto-mono", monospace;
+font-size: large;
 
 }
 body {
@@ -31,8 +32,7 @@ nav, ul {
     color: white;
     padding: 20px 20px;
     background-color: transparent;
-    
-    text-decoration-line: none;
+
 }
 
 .navbar{
@@ -54,6 +54,11 @@ nav, ul {
 
 .navbar a:hover {
     background-color: teal;    
+}
+
+.hero {
+    height: 50vh;
+    width: 100vh;
 }
 
 .content {
@@ -85,6 +90,30 @@ button {
     outline: none;
     cursor: pointer;
 }
+
+#container-solar {
+    height: 609px;
+    width: 1129px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+#content-solar {
+    height: 609px;
+    width: 1129px;
+    margin-top: 20px;
+
+}
+
+.caption {
+    display: block;
+    color: rgb(206, 206, 206);
+    text-align: center;
+    margin-top: 10px;
+}
+
 
 button:hover{
     background-color:teal;
