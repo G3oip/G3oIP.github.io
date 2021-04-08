@@ -15,10 +15,10 @@ body {
     animation: 1s fadein 0.5s forwards;
 }
 
+/* Navbar Section*/
 nav, ul {
 	list-style: none;
 }
-
 .logo {
     float: left;
     margin-top: 7px;
@@ -33,7 +33,6 @@ nav, ul {
     color: white;
     padding: 20px 20px;
     background-color: transparent;
-
 }
 
 .navbar{
@@ -56,7 +55,9 @@ nav, ul {
 .navbar a:hover {
     background-color: teal;    
 }
+/* eind Navbar Section */
 
+/* Maybe voor nog iets voor later atm word het niet gebruikt meer */
 button {
     margin-top: 10px;
     color: white;
@@ -68,6 +69,14 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    background-color:teal;
+}
+
+/* eind button */
+
+
+/* Solar Section*/
 #container-solar {
     height: 609px;
     width: 1129px;
@@ -82,7 +91,9 @@ button {
     width: 1129px;
     margin-top: 20px;
 }
+/* eind Solar Section*/
 
+/* caption voor de texten onder images*/
 .caption {
     display: block;
     color: white;
@@ -90,18 +101,10 @@ button {
     margin-top: 10px;
     font-size: large;
 }
+/* eind caption*/
 
-.links {
-    display: block;
-    text-align: center;
-    margin-top: 10px;
-    font-size: large;
-}
 
-button:hover{
-    background-color:teal;
-}
-
+/* Portfolio Section*/
 #Portfolio-Images {
     margin-top: 60px;
     clear: both;
@@ -124,6 +127,42 @@ button:hover{
     animation: 1s fadein;
 }
 
+
+/* Form van het registreren van email*/
+#content-form {
+
+    padding-top: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+form {
+    text-align: center;
+    color: white;
+    
+}
+/* eind Email Form Registration*/
+
+
+
+/* Footer Section*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+
+/* Logos in de footers zelf Section*/
 .fa {
     padding: 20px;
     display: block;
@@ -160,31 +199,11 @@ button:hover{
 .fa:hover {
     opacity: 0.8;
 }
-
-#content-form {
-
-    padding-top: 300px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-}
-form {
-    text-align: center;
-    color: white;
-    
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
+/* eind Footer Section*/
 
 
 
+/* Voor de Fade in Animation bij het laden van de website*/
 @keyframes fadein {
 	100% {
 		opacity: 1;
