@@ -129,8 +129,7 @@ button:hover{
 
 
 /* Form van het registreren van email*/
-#content-form {
-
+#contact-form {
     padding-top: 300px;
     padding-left: 20px;
     padding-right: 20px;
@@ -200,8 +199,6 @@ form {
     opacity: 0.8;
 }
 /* eind Footer Section*/
-
-
 
 /* Voor de Fade in Animation bij het laden van de website*/
 @keyframes fadein {
